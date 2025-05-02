@@ -1988,7 +1988,9 @@ section h2 {
         justify-content: center !important;
         margin: 0 auto !important;
     }
-  
+    .features-cta-alt .cta-button.primary {
+        align-self: center;   /* center within flex container */
+    }
   }
   
   .features-cta {
@@ -2005,4 +2007,6 @@ section h2 {
     font-size: 1.1rem;
     padding: 0.75rem 2rem;
     border-radius: 25px;
+    white-space: nowrap;   
+    display: inline-block;  
   }
