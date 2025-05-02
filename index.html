@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenStream Extension - Reclaim Your Productivity</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <header>
+        <div class="container nav">
+          <div class="logo"> 
+            <div class="logo-icon">
+                <img src="logo-icon.png" alt="ZenStream Logo" width="20" height="20" loading="lazy">
+            </div>
+            <span class="logo-text">ZenStream</span>
+        </div>
+          <!-- Sidebar toggle button -->
+          <button class="menu-toggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <!-- Sidebar menu -->
+          <aside class="sidebar" aria-hidden="true">
+            <button class="close-btn" aria-label="Close menu">&times;</button>
+            <nav class="menu mobile-menu">
+              <a href="#features">Features</a>
+              <a href="#how-it-works">How It Works</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#contact">Need Help?</a>
+            </nav>
+          </aside>
+          <a href="#" class="cta-button" aria-label="Install extension">Install Extension</a>
+        </div>
+      </header>
+
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Reclaim Your Focus</h1>
+                    <p class="hero-subtitle">Join 50,000+ professionals who've transformed their productivity</p>
+                    <div class="hero-stats">
+                        <div class="mini-stat">
+                            <span class="stat-value">50K+</span>
+                            <span class="stat-label">Active Users</span>
+                        </div>
+                        <div class="mini-stat">
+                            <span class="stat-value">4.8</span>
+                            <span class="stat-label">User Rating</span>
+                        </div>
+                        <div class="mini-stat">
+                            <span class="stat-value">2.5M</span>
+                            <span class="stat-label">Hours Saved</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#" class="cta-button primary">Install Now - It's Free</a>
+                        <a href="#" class="cta-button secondary">See How It Works</a>
+                    </div>
+                    <div class="trust-badges">
+                        <span>🔒 Secure & Private</span>
+                        <span>⚡ Lightweight</span>
+                        <span>🔄 Free Updates</span>
+                    </div>
+                </div>
+                <div class="hero-showcase">
+                    <div class="showcase-container">
+                        <div class="showcase-item active">
+                            <div class="showcase-icon">🎯</div>
+                            <h3>Smart Blocking</h3>
+                            <p>Block distracting websites with AI-powered detection</p>
+                        </div>
+                        <div class="showcase-item">
+                            <div class="showcase-icon">⏰</div>
+                            <h3>Focus Timer</h3>
+                            <p>Stay productive with customizable Pomodoro sessions</p>
+                        </div>
+                        <div class="showcase-item">
+                            <div class="showcase-icon">📊</div>
+                            <h3>Analytics</h3>
+                            <p>Track your progress with detailed insights</p>
+                        </div>
+                    </div>
+                    <div class="showcase-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <h2>Digital Distractions Are Everywhere</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">40</div>
+                        <div class="stat-label">seconds</div>
+                        <p>The average time between digital interruptions</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">23</div>
+                        <div class="stat-label">minutes</div>
+                        <p>Time to regain focus after each interruption</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2.5</div>
+                        <div class="stat-label">hours</div>
+                        <p>Daily productivity lost to distractions</p>
+                    </div>
+                </div>
+                <div class="distraction-impact">
+                    <div class="impact-item">
+                        <div class="impact-icon">📱</div>
+                        <h3>Smartphone Addiction</h3>
+                        <p>Average person checks their phone <strong>58 times daily</strong></p>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-icon">⏰</div>
+                        <h3>Time Drain</h3>
+                        <p>Social media consumes <strong>2.5 hours</strong> of your day</p>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-icon">📊</div>
+                        <h3>Productivity Loss</h3>
+                        <p>Workers lose <strong>28%</strong> of their day to interruptions</p>
+                    </div>
+                </div>
+                <div class="stats-cta">
+                    <p class="highlight-text">Don't let distractions control your time. Take back your focus today.</p>
+                    <a href="#" class="cta-button">Start Focusing Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Core Features</h2>
+                    <p class="section-subtitle">Everything you need to stay focused and productive</p>
+                </div>
+                <div class="features-container">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <span class="icon">🎯</span>
+                        </div>
+                        <h3>Smart Blocking</h3>
+                        <p>Intelligently blocks distracting websites based on your work patterns</p>
+                        <ul class="feature-benefits">
+                            <li>AI-powered detection</li>
+                            <li>Custom blocklists</li>
+                            <li>Schedule-based blocking</li>
+                        </ul>
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">98%</span>
+                                <span class="stat-label">Success Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <span class="icon">⏰</span>
+                        </div>
+                        <h3>Focus Timer</h3>
+                        <p>Pomodoro technique with smart break scheduling</p>
+                        <ul class="feature-benefits">
+                            <li>Customizable intervals</li>
+                            <li>Break reminders</li>
+                            <li>Progress tracking</li>
+                        </ul>
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">2.5x</span>
+                                <span class="stat-label">Productivity Boost</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <span class="icon">📊</span>
+                        </div>
+                        <h3>Productivity Stats</h3>
+                        <p>Detailed insights into your work patterns and progress</p>
+                        <ul class="feature-benefits">
+                            <li>Daily/weekly reports</li>
+                            <li>Focus score</li>
+                            <li>Time saved metrics</li>
+                        </ul>
+                        <div class="feature-stats">
+                            <div class="stat">
+                                <span class="stat-value">40%</span>
+                                <span class="stat-label">More Focus Time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-cta">
+                    <div class="feature-highlight">
+                        <div class="highlight-icon">✨</div>
+                        <div class="highlight-content">
+                            <h4>Start Your Focus Journey Today</h4>
+                            <p>Join thousands of professionals who've transformed their productivity</p>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="cta-content">
+                          <div class="time-estimate">
+                            <span class="estimate-icon">✨</span>
+                            <span>Better features than any other</span>
+                          </div>
+                          <a href="#how-it-works" class="cta-button primary">Start Your Focus Journey</a>
+                        </div>
+                      </div>
+                    <div class="trust-badges">
+                        <span>🔒 30-Day Money Back</span>
+                        <span>⚡ Instant Setup</span>
+                        <span>🔄 Free Updates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2>How It Works</h2>
+                    <p class="section-subtitle">Get started in just 3 simple steps</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">📥</div>
+                        <h3>Install</h3>
+                        <p>Add the extension to your browser in less than 30 seconds</p>
+                        <div class="step-detail">
+                            <span class="detail-icon">⚡</span>
+                            <span>One-click installation</span>
+                        </div>
+                        <div class="step-detail">
+                            <span class="detail-icon">🔒</span>
+                            <span>No account required</span>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">⚙️</div>
+                        <h3>Configure</h3>
+                        <p>Choose your focus preferences in under 2 minutes</p>
+                        <div class="step-detail">
+                            <span class="detail-icon">🎯</span>
+                            <span>Select sites to block</span>
+                        </div>
+                        <div class="step-detail">
+                            <span class="detail-icon">⏰</span>
+                            <span>Set your schedule</span>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">🚀</div>
+                        <h3>Focus</h3>
+                        <p>Start working distraction-free immediately</p>
+                        <div class="step-detail">
+                            <span class="detail-icon">📈</span>
+                            <span>Track your progress</span>
+                        </div>
+                        <div class="step-detail">
+                            <span class="detail-icon">✨</span>
+                            <span>See results instantly</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps-cta">
+                    <div class="time-estimate">
+                        <span class="estimate-icon">⏱️</span>
+                        <span>Total setup time: Less than 3 minutes</span>
+                    </div>
+                    <a href="#" class="cta-button primary">Start Your Focus Journey</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2>Simple Pricing</h2>
+                <div class="pricing-container">
+                    <div class="pricing-plan">
+                        <div class="plan-badge">Most Popular</div>
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="original-price">$9.99</span>
+                            <span class="current-price">$4.99</span>
+                            <span class="price-period">/mo</span>
+                        </div>
+                        <div class="price-savings">Save 50% Today</div>
+                        <ul class="features-list">
+                            <li><span class="feature-icon">✓</span>Unlimited site blocking</li>
+                            <li><span class="feature-icon">✓</span>Advanced scheduling</li>
+                            <li><span class="feature-icon">✓</span>Detailed analytics</li>
+                            <li><span class="feature-icon">✓</span>Sync across devices</li>
+                            <li><span class="feature-icon">✓</span>Priority support</li>
+                            <li><span class="feature-icon">✓</span>Custom themes</li>
+                        </ul>
+                        <div class="pricing-cta">
+                            <a href="#" class="cta-button primary">Get Premium Now</a>
+                            <p class="guarantee">30-Day Money-Back Guarantee</p>
+                        </div>
+                        <div class="social-proof">
+                            <div class="user-count">Join 50,000+ happy users</div>
+                            <div class="rating">
+                                <span class="stars">★★★★★</span>
+                                <span class="rating-text">4.9/5 from 2,000+ reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing-plan free">
+                        <h3>Free</h3>
+                        <div class="price">$0</div>
+                        <ul class="features-list">
+                            <li><span class="feature-icon">✓</span>Basic site blocking</li>
+                            <li><span class="feature-icon">✓</span>Up to 5 custom blocklists</li>
+                            <li><span class="feature-icon">✓</span>Simple focus timer</li>
+                            <li><span class="feature-icon">✓</span>Daily statistics</li>
+                            <li class="disabled"><span class="feature-icon">×</span>Advanced scheduling</li>
+                            <li class="disabled"><span class="feature-icon">×</span>Detailed analytics</li>
+                        </ul>
+                        <a href="#" class="cta-button secondary">Start Free</a>
+                    </div>
+                </div>
+                <div class="pricing-features">
+                    <div class="feature-highlight">
+                        <div class="highlight-icon">⚡</div>
+                        <div class="highlight-content">
+                            <h4>Limited Time Offer</h4>
+                            <p>Get 50% off Premium for the first 3 months</p>
+                        </div>
+                    </div>
+                    <div class="trust-badges">
+                        <span>🔒 Secure Payment</span>
+                        <span>⚡ Instant Access</span>
+                        <span>🔄 Free Updates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial">
+                        <p>"This extension helped me stay focused during my thesis writing. My productivity increased by 40%!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="/api/placeholder/50/50" alt="Sarah K.">
+                            </div>
+                            <div class="author-info">
+                                <div class="author-name">Sarah K.</div>
+                                <div class="author-title">Graduate Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Simple, effective, and doesn't slow down my browser. Exactly what I needed to stop procrastinating."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="/api/placeholder/50/50" alt="Mike T.">
+                            </div>
+                            <div class="author-info">
+                                <div class="author-name">Mike T.</div>
+                                <div class="author-title">Software Developer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Start Focusing Today</h2>
+                <p>Join thousands of users who've reclaimed their productivity</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button">Install Free</a>
+                    <a href="#" class="secondary-button">Go Premium</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Need Help?</h2>
+                <p class="section-subtitle">We're here to help! Let us know if you're facing any issues with the extension.</p>
+            </div>
+            <div class="contact-container">
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Brief description of your issue">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Please describe your issue in detail"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="copyright">© 2025 ZenStream Extension. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
